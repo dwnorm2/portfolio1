@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: SpaceText-Bold
+font link: https://github.com/floriankarsten/space-text
+font author: Florian Karsten
+font author site: http://floriankarsten.com/
+Slogan Font: Questrial-Regular.otf
+
+icon designer: Adam Whitcroft
+icon designer link: /adamwhitcroft
+        
+
+fontColor: {"hex":"#39DAA2"}
+bgColor: {"hex":"#000000"}
+iconColor: {"hex":"#39DAA2"}
+sloganColor: {"hex":"#FFFFFF"}
+      
