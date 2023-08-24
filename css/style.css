@@ -177,7 +177,7 @@ main img {
 }
 @supports (-webkit-touch-callout: none) {
   .portfolio {
-    margin-top: -50px;
+    margin-top: -55px;
   }
 }
 .line {
