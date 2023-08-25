@@ -153,7 +153,9 @@ main img {
   /* border: 1px solid red; */
   /* flex: 1 1 auto; */
 }
-
+.mobileWave {
+  display: none;
+}
 @media screen and (max-width: 930px) {
   .hero {
     width: 70vw;
@@ -185,6 +187,7 @@ main img {
     /* margin-top: -56px; */
   }
 }
+
 .line {
   position: absolute;
   width: 105%;
@@ -289,7 +292,18 @@ main img {
   filter: FlipH;
   -ms-filter: "FlipH";
 }
-
+@media screen and (max-width: 413px) {
+  .line {
+    display: none;
+  }
+  .mobileWave {
+    display: block;
+    margin-bottom: -10px;
+  }
+  .flex-container {
+    height: 90vh;
+  }
+}
 .sectionContainer {
   padding: 0 20px;
 }
