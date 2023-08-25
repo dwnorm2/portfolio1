@@ -108,7 +108,7 @@ img {
 
   /* border: 1px solid red; */
   /* height: 100vh; */
-  overflow-y: scroll;
+  overflow-y: hidden;
 
   padding: 0 35px;
   margin-top: -50px;
