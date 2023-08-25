@@ -179,7 +179,7 @@ main img {
 }
 @supports (-webkit-touch-callout: none) {
   .portfolio {
-    /* margin-top: -55px; */
+    margin-top: -56px;
   }
 }
 .line {
