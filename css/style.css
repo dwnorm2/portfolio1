@@ -29,14 +29,17 @@ html {
 
 /* z index 99 above so I don't have to do it on every element individually below */
 
-.clearfix {
-  overflow: auto;
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
-.clearfix::after {
-  content: "";
+.clear {
   clear: both;
-  display: table;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
