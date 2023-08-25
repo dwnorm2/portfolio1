@@ -190,11 +190,6 @@ main img {
     /* margin-top: 10px; */
   }
 }
-@supports (-webkit-touch-callout: none) {
-  .portfolio {
-    /* margin-top: -56px; */
-  }
-}
 
 .portfolio {
   padding-top: 20px;
@@ -309,6 +304,28 @@ main img {
   -ms-filter: "FlipH";
 }
 @media screen and (max-width: 413px) {
+  .line {
+    display: none;
+  }
+  .mobileWave {
+    display: block;
+    margin-bottom: -10px;
+  }
+  .flex-container {
+    height: 90vh;
+  }
+  .staticWave {
+    animation: animate 20s linear infinite;
+  }
+  .portfolioWave,
+  .contactWave {
+    animation-direction: reverse;
+  }
+  .aboutWave {
+    animation: animate 100s linear infinite;
+  }
+}
+@supports (-webkit-touch-callout: none) {
   .line {
     display: none;
   }
