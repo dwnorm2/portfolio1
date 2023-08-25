@@ -63,6 +63,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  gap: 0;
 }
 
 .flex-container {
@@ -74,13 +75,13 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0);
+  /* align-items: center;
+  background-color: rgb(255, 255, 255); */
   /* make background color slightly transparent */
   padding: 20px;
   justify-self: flex-start;
   /* border: solid red; */
-
+  z-index: 100;
   font-size: 1.7rem;
 }
 
@@ -107,6 +108,7 @@ img {
   overflow-y: scroll;
 
   padding: 0 35px;
+  margin-top: -50px;
 }
 
 .left-header img {
@@ -187,6 +189,8 @@ main img {
   height: 100%;
   background-color: white;
   z-index: -1;
+  margin-bottom: -10px;
+  /* border: 1px solid red; */
 }
 .whiteLine {
   height: 100%;
@@ -207,7 +211,7 @@ main img {
   position: absolute;
   left: 0;
   width: 400%;
-  height: 96%;
+  height: 100%;
   background-repeat: repeat no-repeat;
   background-position: 0 bottom;
   transform-origin: center;
@@ -249,9 +253,13 @@ main img {
   flex-direction: column;
   justify-content: space-between;
   overflow-y: hidden;
+  margin-top: 6px;
 }
 .about {
   background-color: white;
+}
+.contact {
+  margin-top: 0;
 }
 .staticWave {
   width: 200%;
@@ -277,6 +285,10 @@ main img {
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+}
+
+.sectionContainer {
+  padding: 0 20px;
 }
 
 h1,
