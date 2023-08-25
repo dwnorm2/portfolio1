@@ -25,6 +25,7 @@
 html {
   font-size: 62.5%;
   font-family: "Space-Grotesk-Medium";
+  scroll-behavior: smooth;
 }
 
 /* z index 99 above so I don't have to do it on every element individually below */
@@ -81,7 +82,8 @@ header {
   /* align-items: center;
   background-color: rgb(255, 255, 255); */
   /* make background color slightly transparent */
-  padding: 20px;
+  padding: 10px 20px;
+
   justify-self: flex-start;
   /* border: solid red; */
   z-index: 100;
@@ -99,6 +101,8 @@ header {
   text-decoration: none;
   color: rgb(0, 0, 0);
   /* border: red 1px solid; */
+  display: flex;
+  align-items: center;
 }
 img {
 }
@@ -115,11 +119,15 @@ img {
 }
 
 .left-header img {
-  width: 120px;
+  width: 50px;
+  /* border: solid 1px red; */
 }
 
 .left-header {
+  /* display: flex; */
+  /* border: 1px solid red; */
   display: flex;
+  align-items: center;
 }
 
 main {
