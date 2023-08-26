@@ -302,6 +302,7 @@ main img {
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+  /* margin-bottom: 0.2px; */
 }
 @media screen and (max-width: 413px) {
   .line {
@@ -366,7 +367,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   overflow-y: hidden; */
-  /* margin-top: -2px; */
+  /* margin-top: 20px; */
 }
 /* .filler {
   height: 60px;
