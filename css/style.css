@@ -237,11 +237,13 @@ main img {
   -webkit-background-size: 50% 100px;
   background-size: 50% 100px;
   animation: animate 23s linear infinite;
+  animation-fill-mode: forwards;
 }
 .wave3 {
   -webkit-background-size: 50% 80px;
   background-size: 50% 80px;
   animation: animate 35s linear infinite;
+  animation-fill-mode: forwards;
 }
 
 @keyframes animate {
@@ -275,11 +277,13 @@ main img {
   margin-top: 0;
 }
 .staticWave {
-  width: 200%;
+  width: 300%;
   height: 100px;
   overflow-y: hidden;
   animation: animate 40s linear infinite;
   margin-bottom: -5px;
+  animation-fill-mode: forwards;
+  background-size: 50% 100%;
 }
 .aboutWave {
   height: 155px;
@@ -292,16 +296,18 @@ main img {
   width: 800%;
   animation: animate 200s linear infinite;
   animation-direction: reverse;
+  animation-fill-mode: forwards;
 }
 
 .contactWave {
-  height: 130px;
+  height: 140px;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+  animation-fill-mode: forwards;
   /* margin-bottom: 0.2px; */
 }
 @media screen and (max-width: 413px) {
@@ -311,19 +317,24 @@ main img {
   .mobileWave {
     display: block;
     margin-bottom: -10px;
+    animation-fill-mode: forwards;
   }
   .flex-container {
     height: 90vh;
   }
   .staticWave {
-    animation: animate 20s linear infinite;
+    animation: animate 60s linear infinite;
+    animation-fill-mode: forwards;
+    width: 1000%;
   }
   .portfolioWave,
   .contactWave {
     animation-direction: reverse;
+    animation-fill-mode: forwards;
   }
   .aboutWave {
-    animation: animate 100s linear infinite;
+    /* animation: animate 5s linear infinite; */
+    animation-fill-mode: forwards;
   }
 }
 @supports (-webkit-touch-callout: none) {
@@ -333,19 +344,24 @@ main img {
   .mobileWave {
     display: block;
     margin-bottom: -10px;
+    animation-fill-mode: forwards;
   }
   .flex-container {
     height: 90vh;
+    animation-fill-mode: forwards;
   }
   .staticWave {
     animation: animate 20s linear infinite;
+    animation-fill-mode: forwards;
   }
   .portfolioWave,
   .contactWave {
     animation-direction: reverse;
+    animation-fill-mode: forwards;
   }
   .aboutWave {
     animation: animate 100s linear infinite;
+    animation-fill-mode: forwards;
   }
 }
 
