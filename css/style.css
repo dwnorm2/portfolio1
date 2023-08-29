@@ -351,8 +351,9 @@ main img {
     animation-fill-mode: forwards;
   }
   .staticWave {
-    animation: animate 20s linear infinite;
+    animation: animate 60s linear infinite;
     animation-fill-mode: forwards;
+    width: 1000%;
   }
   .portfolioWave,
   .contactWave {
@@ -360,7 +361,7 @@ main img {
     animation-fill-mode: forwards;
   }
   .aboutWave {
-    animation: animate 100s linear infinite;
+    /* animation: animate 100s linear infinite; */
     animation-fill-mode: forwards;
   }
 }
