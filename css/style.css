@@ -26,6 +26,7 @@ html {
   font-size: 62.5%;
   font-family: "Space-Grotesk-Medium";
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* z index 99 above so I don't have to do it on every element individually below */
@@ -113,7 +114,7 @@ img {
   /* border: 1px solid red; */
   /* height: 100vh; */
   overflow-y: hidden;
-
+  /* overflow-x: hidden; */
   padding: 0 35px;
   margin-top: -50px;
 }
@@ -156,6 +157,7 @@ main img {
   align-items: center;
   gap: 30px;
   margin-top: 40vh;
+  overflow-x: hidden;
 }
 .hero h1 {
   /* border: 1px solid red; */
@@ -163,6 +165,8 @@ main img {
 }
 .mobileWave {
   display: none;
+  overflow-x: hidden;
+  
 }
 @media screen and (max-width: 930px) {
   .hero {
@@ -277,14 +281,19 @@ main img {
 .contact {
   margin-top: 0;
 }
+
+/* slow animation speed? */
+
 .staticWave {
   width: 300%;
   height: 100px;
   overflow-y: hidden;
+  overflow-x: hidden;
   animation: animate 40s linear infinite;
   margin-bottom: -5px;
   animation-fill-mode: forwards;
-  background-size: 50% 100%;
+  /* background-size: 50% 100%; */
+
 }
 .aboutWave {
   height: 155px;
@@ -319,6 +328,7 @@ main img {
     display: block;
     margin-bottom: -10px;
     animation-fill-mode: forwards;
+    back;
   }
   .flex-container {
     height: 90vh;
