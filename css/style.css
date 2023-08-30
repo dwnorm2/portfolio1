@@ -193,6 +193,7 @@ main img {
   .portfolio {
     /* margin-top: 10px; */
   }
+ 
 }
 
 .portfolio {
@@ -334,7 +335,7 @@ main img {
     height: 90vh;
   }
   .staticWave {
-    animation: animate 60s linear infinite;
+    animation: animate 100s linear infinite;
     animation-fill-mode: forwards;
     width: 1000%;
   }
@@ -347,6 +348,10 @@ main img {
     /* animation: animate 5s linear infinite; */
     animation-fill-mode: forwards;
   }
+  * {
+    overflow-x: hidden;
+  }
+  
 }
 @supports (-webkit-touch-callout: none) {
   .line {
