@@ -121,7 +121,89 @@
     </section>
     <section class="two contact" id="contact">
       <div class="sectionContainer"><h2>Contact</h2></div>
+      <div class="contact-flex-container">
+        <div class="">
+          <h2 class="">Contact</h2>
+          <h6 class="">Fill out the form below</h6>
+        </div>
+        <div class="form-container">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            id="form"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="a04edebe-dc15-43a8-95bc-4f29d3a9c8ac"
+            />
+            <input
+              type="hidden"
+              name="subject"
+              value="New Submission from Web3Forms"
+            />
+            <input
+              type="checkbox"
+              name="botcheck"
+              id=""
+              style="display: none"
+            />
+            <div class="field-container">
+              <div class="mb-6">
+                <label for="name" class="">Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John Doe"
+                  required
+                  class="input"
+                />
+              </div>
+              <div class="mb-6">
+                <label for="email" class="">Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="you@company.com"
+                  required
+                  class=""
+                />
+              </div>
+              <div class="mb-6">
+                <label for="phone" class="">Phone Number</label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="+1 (555) 1234-567"
+                  required
+                  class=""
+                />
+              </div>
+              <div class="message-row">
+                <label for="message" class="message-label">Your Message</label>
 
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Your Message"
+                  class=""
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="mb-6">
+              <button type="submit" class="btn-white buttons btn">
+                SUBMIT
+              </button>
+            </div>
+            <p class="" id="result"></p>
+          </form>
+        </div>
+      </div>
       <div
         class="staticWave contactWave"
         style="background-image: url(./border-img/3.png)"

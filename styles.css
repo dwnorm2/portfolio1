@@ -1,0 +1,226 @@
+/* @font-face {
+  font-family: 080203;
+  src: url(./fonts/080203.ttf);
+} */
+
+/* * {
+  border: solid thin white;
+} */
+
+body {
+  font-family: "Krona One", sans-serif;
+  color: white;
+  background: black;
+  box-sizing: border-box;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 50px; */
+  font-size: medium;
+  background-color: black;
+  padding: 15px;
+  justify-self: flex-start;
+  /* border: solid red; */
+}
+
+.right-header {
+  display: flex;
+  justify-content: space-between;
+  width: 190px;
+  border: black solid;
+}
+
+.header-links {
+  text-decoration: none;
+  color: white;
+}
+
+.content-container {
+  font-size: x-large;
+  flex: 1 1 auto;
+  height: 95vh;
+  /* min-height: 90vh; */
+  overflow-y: scroll;
+  text-align: center;
+}
+
+img {
+  width: 80vw;
+  max-width: 800px;
+  margin-bottom: 100px;
+}
+
+.home-text {
+  font-size: larger;
+  margin-bottom: 80px;
+}
+
+.hideme {
+  opacity: 0;
+}
+.home-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: px;
+}
+
+.fellows {
+  margin-top: 80px;
+}
+
+.footer {
+  font-size: small;
+  margin: 15px;
+  height: 150px;
+  /* margin-top: 80px; */
+  /* margin-top: -100px; */
+}
+
+.instagram {
+  max-width: 40px;
+}
+
+input,
+textarea {
+  font-family: sans-serif;
+  font-size: medium;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+textarea {
+  margin-left: 5px;
+}
+
+/* label {
+} */
+
+.message-row {
+  display: flex;
+  align-items: flex-start;
+  /* postion: fixed; */
+}
+
+/* contact */
+
+.contact-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field-container {
+  font-size: small;
+  text-align: right;
+  /* display: ; */
+}
+
+.contact-flex-container {
+  font-size: small;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+/* buttons from codepen */
+
+.buttons {
+  overflow: hidden;
+}
+
+.buttons > div {
+  width: calc(50% - 40px);
+  padding: 20px;
+  float: left;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+}
+.buttons .dark {
+  background: #000;
+  left: 50%;
+}
+.buttons a {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+a#link {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+/*------------------------------------------------------*/
+/* BUTTONS */
+/*------------------------------------------------------*/
+.btn,
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: "Krona One", sans-serif;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin-top: 30px;
+}
+
+.btn:hover,
+input[type="submit"]:hover {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn-white {
+  border: solid 2px #fff;
+  background: transparent;
+  color: #fff !important;
+}
+.btn-white:hover {
+  border: solid 2px #fff;
+  background: #fff;
+  color: #1f1f1f !important;
+}
+
+.home-button {
+  display: block;
+  min-width: 300px;
+  min-height: 80px;
+}
