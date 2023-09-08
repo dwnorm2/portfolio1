@@ -27,3 +27,22 @@ if (
 //     });
 //   });
 // });
+
+//eloquent exercises
+function min(n1, n2) {
+  if (n1 < n2) {
+    return n1;
+  } else {
+    return n2;
+  }
+}
+
+function countChar(string, letter) {
+  let counter = 0;
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] == letter) {
+      counter++;
+    }
+  }
+  return counter;
+}

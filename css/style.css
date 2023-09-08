@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0;
   z-index: 99;
+  animation-fill-mode: forwards;
   /* overflow-x: hidden; */
 }
 
@@ -264,7 +265,7 @@ main img {
 }
 
 .two {
-  height: 800px;
+  min-height: 800px;
 
   background-color: #39daa2;
 
@@ -286,11 +287,11 @@ main img {
 /* slow animation speed? */
 
 .staticWave {
-  width: 300%;
+  width: 800%;
   height: 100px;
   overflow-y: hidden;
   overflow-x: hidden;
-  animation: animate 40s linear infinite;
+  animation: animate 300s linear infinite;
   margin-bottom: -5px;
   animation-fill-mode: forwards;
   /* background-size: 50% 100%; */
@@ -305,7 +306,7 @@ main img {
   filter: FlipH;
   -ms-filter: "FlipH";
   width: 800%;
-  animation: animate 200s linear infinite;
+  animation: animate 300s linear infinite;
   animation-direction: reverse;
   animation-fill-mode: forwards;
 }
@@ -384,6 +385,7 @@ main img {
 
 .sectionContainer {
   padding: 0 30px;
+  padding-bottom: 30px;
 }
 
 h1,
@@ -393,7 +395,7 @@ h2 {
 }
 
 footer {
-  height: 100px;
+  height: 0px;
   background-color: white;
   /* border: solid blue 1px; */
   /* display: flex;
@@ -412,6 +414,47 @@ footer {
   width: 100vw;
   height: 100px;
 } */
+
+.pSection {
+
+  background-color: white;
+  height: 400px;
+  width: 400px;
+ 
+  border-radius: 20%;
+  box-shadow: 2px 2px 10px black;
+  text-align: center;
+  padding: 20px;
+  
+}
+.pContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.aboutFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.aboutText {
+  max-width: 700px;
+}
+
+.about img {
+  max-width: 500px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
