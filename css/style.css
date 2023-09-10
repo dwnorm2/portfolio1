@@ -167,7 +167,6 @@ main img {
 .mobileWave {
   display: none;
   overflow-x: hidden;
-  
 }
 @media screen and (max-width: 930px) {
   .hero {
@@ -194,7 +193,6 @@ main img {
   .portfolio {
     /* margin-top: 10px; */
   }
- 
 }
 
 .portfolio {
@@ -295,7 +293,6 @@ main img {
   margin-bottom: -5px;
   animation-fill-mode: forwards;
   /* background-size: 50% 100%; */
-
 }
 .aboutWave {
   height: 155px;
@@ -330,7 +327,6 @@ main img {
     display: block;
     margin-bottom: -10px;
     animation-fill-mode: forwards;
-    back;
   }
   .flex-container {
     height: 90vh;
@@ -349,13 +345,15 @@ main img {
     /* animation: animate 5s linear infinite; */
     animation-fill-mode: forwards;
   }
+
   * {
     overflow-x: hidden;
   }
-  
+
+  footer {
+    overflow-x: visible;
+  }
 }
-
-
 
 @supports (-webkit-touch-callout: none) {
   .line {
@@ -384,6 +382,9 @@ main img {
     /* animation: animate 100s linear infinite; */
     animation-fill-mode: forwards;
   }
+  footer {
+    overflow-x: visible;
+  }
 }
 
 .sectionContainer {
@@ -400,6 +401,8 @@ h2 {
 footer {
   height: 0px;
   background-color: white;
+  text-align: center;
+  font-size: 1.5rem;
   /* border: solid blue 1px; */
   /* display: flex;
   flex-direction: column;
@@ -419,21 +422,19 @@ footer {
 } */
 
 .pSection {
-
   background-color: white;
   height: 400px;
   width: 400px;
- 
+
   border-radius: 20%;
   box-shadow: 2px 2px 10px black;
   text-align: center;
   padding: 20px;
-  
 }
 @media screen and (max-width: 418px) {
-.pSection {
-  box-shadow: none
-}
+  .pSection {
+    box-shadow: none;
+  }
 }
 .pContainer {
   margin-top: 30px;
@@ -465,20 +466,20 @@ p {
   max-width: 500px;
 }
 
-@media screen and (max-width:555px) {
+@media screen and (max-width: 555px) {
   .about img {
-  width: 100%;
-}
+    width: 100%;
+  }
 }
 
 .links {
   display: flex;
   gap: 10px;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 #contact {
-height: auto;
+  height: auto;
 }
 
 .contact-flex-container {
@@ -489,12 +490,11 @@ height: auto;
   align-items: center;
   text-align: center;
   /* border: 1px solid red; */
-  
 }
 
 .contact-flex-container h3 {
-    margin-bottom: 10px;
-    font-size: 2rem;
+  margin-bottom: 10px;
+  font-size: 2rem;
 }
 
 .field-container {
@@ -506,8 +506,6 @@ height: auto;
 .contact-flex-container {
   font-size: large;
 }
-
-
 
 /* h2 {
   font-size: 36px;
@@ -539,11 +537,9 @@ textarea {
 @media screen and (max-width: 690px) {
   input,
   textarea {
-     width: 200px;
-  
+    width: 200px;
+  }
 }
-}
-
 
 textarea {
   margin-left: 5px;
@@ -558,9 +554,6 @@ textarea {
   justify-content: center;
   /* postion: fixed; */
 }
-
-
-
 
 button {
   background-color: #ffffff;
@@ -588,17 +581,13 @@ button {
   touch-action: manipulation;
 }
 
-
-
-
-
 button:hover,
 button:focus {
-  background-color:#63ebbc;
+  background-color: #63ebbc;
 }
 
 svg:hover {
-  fill:#39daa2
+  fill: #39daa2;
 }
 /******************************************
 /* ADDITIONAL STYLES
