@@ -350,9 +350,9 @@ main img {
     overflow-x: hidden;
   }
 
-  footer {
+  /* footer {
     overflow-x: visible;
-  }
+  } */
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -369,7 +369,7 @@ main img {
     animation-fill-mode: forwards;
   }
   .staticWave {
-    animation: animate 60s linear infinite;
+    animation: animate 100s linear infinite;
     animation-fill-mode: forwards;
     width: 1000%;
   }
@@ -382,9 +382,9 @@ main img {
     /* animation: animate 100s linear infinite; */
     animation-fill-mode: forwards;
   }
-  footer {
+  /* footer {
     overflow-x: visible;
-  }
+  } */
 }
 
 .sectionContainer {
