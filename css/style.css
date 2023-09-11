@@ -486,7 +486,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -200px;
+  margin-top: -190px;
   align-items: center;
   text-align: center;
   /* border: 1px solid red; */
@@ -526,6 +526,7 @@ textarea {
   outline: none;
   border: none;
   padding: 5px;
+  resize: none;
 }
 .message-label {
   margin-right: 6px;
@@ -568,7 +569,7 @@ button {
   height: 40px;
   line-height: 20px;
   list-style: none;
-  margin: 0;
+  margin: 10px 0;
   outline: none;
   padding: 10px 16px;
   /* position: relative; */
@@ -588,6 +589,25 @@ button:focus {
 
 svg:hover {
   fill: #39daa2;
+}
+
+.whiteBorder {
+  border-left: 2px solid white;
+  padding-left: 10px;
+}
+
+.greenBorder {
+  border-left: 2px solid #39daa2;
+  padding-left: 10px;
+}
+
+.header-button:hover {
+  color: #39daa2;
+}
+
+#footerSection {
+  background-color: white;
+  min-height: 30px;
 }
 /******************************************
 /* ADDITIONAL STYLES
