@@ -371,6 +371,9 @@ main img {
     height: 100dvh;
     /* animation-fill-mode: forwards; */
   }
+  .two.portfolio {
+    margin-top: 0;
+  }
   .staticWave {
     animation: animate 100s linear infinite;
     animation-fill-mode: forwards;
