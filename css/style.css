@@ -374,7 +374,7 @@ main img {
   } */
   .flex-container {
     height: 100dvh;
-    margin-bottom: 50px;
+    margin-bottom: 0;
   }
   .two.portfolio {
     margin-top: 0;
