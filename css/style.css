@@ -157,7 +157,7 @@ main img {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-top: 40vh;
+  margin-top: 40dvh;
   overflow-x: hidden;
 }
 .hero h1 {
