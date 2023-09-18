@@ -320,16 +320,16 @@ main img {
   /* margin-bottom: 0.2px; */
 }
 @media screen and (max-width: 413px) {
-  .line {
+  /* .line {
     display: none;
   }
   .mobileWave {
     display: block;
     margin-bottom: -10px;
     animation-fill-mode: forwards;
-  }
+  } */
   .flex-container {
-    height: 90vh;
+    height: 100dvh;
   }
   .staticWave {
     animation: animate 100s linear infinite;
@@ -356,17 +356,17 @@ main img {
 }
 
 @supports (-webkit-touch-callout: none) {
-  .line {
+  /* .line {
     display: none;
   }
   .mobileWave {
     display: block;
     margin-bottom: -10px;
     animation-fill-mode: forwards;
-  }
+  } */
   .flex-container {
-    height: 90vh;
-    animation-fill-mode: forwards;
+    height: 100dvh;
+    /* animation-fill-mode: forwards; */
   }
   .staticWave {
     animation: animate 100s linear infinite;
