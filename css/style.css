@@ -445,6 +445,10 @@ footer {
   flex-direction: column;
   justify-content: space-between;
 }
+.projectName {
+  padding-bottom: 3px;
+  /* border: 1px solid red; */
+}
 .pSection img {
   /* width: 80%; */
   height: 75%;
@@ -482,7 +486,7 @@ footer {
 @media screen and (max-width: 418px) {
   .pSection {
     box-shadow: none;
-    height: 380px;
+    height: 330px;
   }
 }
 .pContainer {
