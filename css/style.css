@@ -515,6 +515,25 @@ p {
   max-width: 500px;
 }
 
+.skillContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  width: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.skills {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.skillContainer svg {
+  height: 50px;
+}
+
 .about img {
   max-width: 500px;
 }
@@ -670,7 +689,7 @@ button:focus {
   background-color: #63ebbc;
 }
 
-svg:hover {
+.links svg:hover {
   fill: #39daa2;
 }
 
