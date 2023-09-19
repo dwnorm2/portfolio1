@@ -436,7 +436,7 @@ footer {
   background-color: white;
   height: 400px;
   width: 400px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   border-radius: 20%;
   box-shadow: 2px 2px 10px black;
   text-align: center;
@@ -446,9 +446,19 @@ footer {
   justify-content: space-between;
 }
 .pSection img {
-  width: 100%;
-  height: auto;
+  /* width: 80%; */
+  height: 75%;
+  align-self: center;
+  /* object-fit: cover; */
   /* border: solid red 1px; */
+}
+.pSection a:hover {
+  color: #39daa2;
+  /* fill: #39daa2; */
+}
+.pSection a:hover svg {
+  /* color: #39daa2; */
+  fill: #39daa2;
 }
 .linkContainer {
   display: flex;
@@ -591,14 +601,12 @@ textarea {
   }
   input,
   textarea {
-    margin-top: 20px;
+    margin-top: 15px;
   }
   textarea {
     margin-bottom: 0;
   }
-  label {
-    /* gap: 10px; */
-  }
+
   .message-row {
     display: flex;
     flex-direction: column;
@@ -606,8 +614,10 @@ textarea {
   }
   .message-label {
     /* width: 80vw; */
+    /* border: 1px solid red; */
+    height: fit-content;
     margin: 0;
-    padding: 0;
+    padding: 4px 0;
   }
   .contact-flex-container {
     margin-top: 0px;
