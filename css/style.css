@@ -436,15 +436,43 @@ footer {
   background-color: white;
   height: 400px;
   width: 400px;
-
+  font-size: 1.5rem;
   border-radius: 20%;
   box-shadow: 2px 2px 10px black;
   text-align: center;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pSection img {
+  width: 100%;
+  height: auto;
+  /* border: solid red 1px; */
+}
+.linkContainer {
+  display: flex;
+  justify-content: space-around;
+  /* border: solid 1px red; */
+  text-decoration: none;
+}
+.svgTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 1px red; */
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+}
+.svgTextContainer svg {
+  fill: #000000;
+  width: 30px;
 }
 @media screen and (max-width: 418px) {
   .pSection {
     box-shadow: none;
+    height: 380px;
   }
 }
 .pContainer {
@@ -470,7 +498,7 @@ p {
 }
 
 .aboutText {
-  max-width: 700px;
+  max-width: 500px;
 }
 
 .about img {
@@ -563,7 +591,7 @@ textarea {
   }
   input,
   textarea {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   textarea {
     margin-bottom: 0;
