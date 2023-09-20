@@ -447,12 +447,14 @@ footer {
 }
 .projectName {
   padding-bottom: 3px;
+  margin-bottom: 10px;
   /* border: 1px solid red; */
 }
 .pSection img {
   /* width: 80%; */
   height: 75%;
   align-self: center;
+  border-radius: 5%;
   /* object-fit: cover; */
   /* border: solid red 1px; */
 }
@@ -620,14 +622,18 @@ textarea {
   .field-container {
     width: 85vw;
     text-align: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   input,
   textarea {
-    margin-top: 15px;
+    /* margin-top: 15px; */
   }
   textarea {
-    margin-bottom: 0;
+    margin-bottom: 5px;
+  }
+
+  label {
+    display: none;
   }
 
   .message-row {
