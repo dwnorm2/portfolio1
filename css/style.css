@@ -611,7 +611,7 @@ textarea {
 .message-row {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
   /* postion: fixed; */
 }
 
@@ -646,7 +646,8 @@ textarea {
     /* border: 1px solid red; */
     height: fit-content;
     margin: 0;
-    padding: 4px 0;
+    padding: 4px 20px;
+    color: red;
   }
   .contact-flex-container {
     margin-top: 0px;
