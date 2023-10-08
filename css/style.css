@@ -75,7 +75,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: column;
-  height: 100dvh;
+  height: 100svh;
 }
 
 header {
@@ -157,7 +157,7 @@ main img {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-top: 40dvh;
+  margin-top: 40svh;
   overflow-x: hidden;
 }
 .hero h1 {
@@ -203,7 +203,7 @@ main img {
   position: absolute;
   width: 105%;
   overflow: hidden;
-  height: 100dvh;
+  height: 100svh;
   background-color: white;
   z-index: -1;
   margin-bottom: -10px;
@@ -228,7 +228,7 @@ main img {
   position: absolute;
   left: 0;
   width: 400%;
-  height: 100dvh;
+  height: 100svh;
   background-repeat: repeat no-repeat;
   background-position: 0 bottom;
   transform-origin: center;
@@ -329,7 +329,7 @@ main img {
     animation-fill-mode: forwards;
   } */
   .flex-container {
-    height: 100dvh;
+    height: 100svh;
     margin-bottom: 0;
   }
   .line,
@@ -373,7 +373,7 @@ main img {
     animation-fill-mode: forwards;
   } */
   .flex-container {
-    height: 100dvh;
+    height: 100svh;
     margin-bottom: 0;
   }
   .two.portfolio {
